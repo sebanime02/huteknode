@@ -1,0 +1,14 @@
+extends ./layout.pug
+
+
+block contenido
+	
+	 
+	div(class="container")
+		h4 Enviar nombre
+		form(action="/api/result",method="POST")
+			div(class="input-field")
+				label(for="nombre") Nombre
+				input(type="text",name="name",id="nombre")
+			div
+				input(type="submit",value="Enviar", class="btn waves-effect waves-light")

@@ -1,0 +1,28 @@
+extends layout.pug
+
+block contenido 
+
+    nav
+        div(class="nav-wrapper")
+            a(href="#" class="left brand-logo left") Logo 
+            ul(id="nav-mobile",class="right hide-on-med-and-down")
+    div(class="row")
+        div(class="container")
+            h3 HUTEK
+    div(class="row")
+        div(class="col s6 right-align")
+                h3 Bienvenidos a la prueba técnica de Hutek
+        div(class="col s2")
+                img(src="../public/img/hutek.png" height="150" width="300")
+        div(class="col s2")
+    div(class="row")
+        div(class="container")
+
+                p!=msg1
+                p!=msg2
+                p!=msg3
+                p!=msg4
+                p!=msg5
+
+
+
